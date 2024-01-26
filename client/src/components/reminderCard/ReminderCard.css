@@ -1,0 +1,66 @@
+.reminder-card {
+  margin-bottom: 30px;
+  /* Increased space between alarm boxes */
+}
+
+.card-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.edit-button,
+.delete-button {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  color: #ffffff;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+/* Additional styles for the editing form */
+.editing-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.editing-form input[type="text"],
+.editing-form input[type="time"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.editing-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.days-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* Adjust the spacing between checkboxes */
+  margin-bottom: 20px;
+  /* Space below the days container */
+}
+
+.day-checkbox {
+  display: flex;
+  align-items: center;
+  /* Align the checkbox and label vertically */
+}

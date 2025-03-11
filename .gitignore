@@ -2,6 +2,7 @@
 node_modules/
 
 # Environment variables
+.env
 
 # Build output directory
 /client/build/
